@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const MovieInfo =() => {
     const navigate = useNavigate();
-    const API_KEY = 'e02d91c8';
+    const API_KEY = process.env.REACT_APP_OMDB_API_KEY;
     const {id} = useParams();
     const [movie, setMovie] = useState(null);
     const [loading, setLoading] =  useState(false);

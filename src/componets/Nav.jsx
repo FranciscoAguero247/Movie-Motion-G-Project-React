@@ -19,7 +19,7 @@ const Nav = () => {
     return (
         <nav className="nav">
             <div className="nav__container">
-                {/* 1. Branding: Logo + Title (Hidden on mobile search) */}
+               
                 <div className={`nav__branding ${isSearchExpanded ? "hide-mobile" : ""}`}>
                     <Link to='/' className="logo__link">
                         <img className="logo" src={MMGLogo} alt="Movie Motion G Logo" />
@@ -29,7 +29,7 @@ const Nav = () => {
                     </Link>
                 </div>
 
-                {/* 2. Dynamic Search Bar */}
+              
                 <div className={`nav__search--dynamic ${isSearchExpanded ? "expanded" : ""}`}>
                     <button 
                         className="search__icon--btn" 
@@ -48,20 +48,20 @@ const Nav = () => {
                     />
                 </div>
 
-                {/* 3. Desktop Links (Hidden on mobile search) */}
+                
                 <ul className={`nav__links ${isSearchExpanded ? "hide-mobile" : ""}`}>
                     <li><Link to="/" className="nav__link">Home</Link></li>
                     <li><Link to="/about" className="nav__link">About</Link></li>
                 </ul>
 
-                {/* 4. Mobile Menu Trigger */}
+               
                 {!isSearchExpanded && (
                     <button className="btn__menu" onClick={() => setIsMenuOpen(true)}>
                         <FontAwesomeIcon icon="bars" />
                     </button>
                 )}
 
-                {/* 5. Mobile Menu Backdrop */}
+              
                 <div className={`menu__backdrop ${isMenuOpen ? "menu--open" : ""}`}>
                     <button className="btn__menu btn__menu--close" onClick={() => setIsMenuOpen(false)}>
                         <FontAwesomeIcon icon="times" />
