@@ -1,72 +1,36 @@
-# Getting Started with Create React App
+# 🎬 Movie Motion G
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A high-performance, responsive movie discovery application built with **React** and the **OMDb API**. Movie Motion G offers a seamless "Search-Priority" experience, allowing users to explore a database of over 300,000 titles with ease.
 
-## Available Scripts
+![Vercel Deployment](https://img.shields.io/badge/Deployment-Vercel-success)
+![React](https://img.shields.io/badge/Framework-React_18-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-In the project directory, you can run:
+## 🚀 Live Demo
+**Check out the live project here:** [https://movie-motion-g-project-react.vercel.app/](https://movie-motion-g-project-react.vercel.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Dynamic Search-Priority UI:** A custom-engineered navigation bar that prioritizes the search experience on mobile devices while maintaining a clean desktop layout.
+- **Smart Recommendations:** Automatically suggests similar movies based on the genre of the selected title.
+- **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop using CSS Grid and Flexbox.
+- **Skeleton Loading:** Premium user experience featuring shimmer animations during data fetching.
+- **Advanced Filtering:** Sort results by Title or Year to find exactly what you're looking for.
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React.js, React Router 6, Axios
+- **Icons:** FontAwesome
+- **Styling:** CSS3 (Custom Grid/Flexbox, Glassmorphism)
+- **API:** OMDb (Open Movie Database)
+- **Deployment:** Vercel
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Movie-Motion-G-Project-React
-# Movie-Motion-G-Project-React
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/FranciscoAguero247/Movie-Motion-G-Project-React.git](https://github.com/FranciscoAguero247/Movie-Motion-G-Project-React.git)
