@@ -28,7 +28,7 @@ const Footer = () =>{
             <a onClick={returnHomeBtn} className="footer__link"> Home</a>
             <a onClick={aboutBtn} className="footer__link"> About</a>
           </div>
-          <div className="footer__copyright">Copyright &copy; 2021 Movie Motion <span className='green'>G</span></div>
+          <div className="footer__copyright">Copyright &copy; {new Date().getFullYear()} Movie Motion <span className='green'>G</span></div>
         </div>
       </div>
     </footer>
